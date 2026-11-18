@@ -8,6 +8,7 @@ import { useSaved } from '../../lib/useSaved'
 import { coloredSheetRowClass } from '../../lib/coloredSheet'
 import { TABLE_MAX, TABLE_TIMES, parseTableParam } from './constants'
 import { TableModeChoice } from './TableModeChoice'
+import { useMixTableRange } from './tableMixRange'
 
 function isMode(value: unknown): value is 'read' | 'quiz' {
   return value === 'read' || value === 'quiz'
@@ -22,9 +23,16 @@ export default function TableView() {
   const picked = parseTableParam(raw)
   const [mode, setMode] = useSaved('ssc-table-mode', 'read' as 'read' | 'quiz', isMode)
   const [times, setTimes] = useSaved('ssc-table-times', 10, isTimes)
+  const mixTableRange = useMixTableRange()
 
   const which = picked === 'mix' ? 'mix' : picked ?? 2
-  const makeQuestion = useCallback(() => makeTableQuestion(which, times), [which, times])
+  const makeQuestion = useCallback(
+    () =>
+      picked === 'mix'
+        ? makeTableQuestion('mix', times, mixTableRange.min, mixTableRange.max)
+        : makeTableQuestion(which, times),
+    [which, times, picked, mixTableRange.min, mixTableRange.max],
+  )
 
   if (picked === null) {
     return <Navigate to="/tables" replace />
@@ -64,19 +72,20 @@ export default function TableView() {
   }
 
   const note = isMix
-    ? `Mixed tables (1–30), up to × ${times}.`
+    ? `Random table from ${mixTableRange.min} to ${mixTableRange.max}, up to × ${times}.`
     : `Only ${picked} × 1 to ${picked} × ${times}.`
 
   return (
     <Drill
       title={title}
       topic="tables"
-      revision={`${which}-${times}`}
+      revision={isMix ? `${mixTableRange.revision}-${times}` : `${which}-${times}`}
       makeQuestion={makeQuestion}
       note={note}
       toolbar={
         <>
           {!isMix ? <TableModeChoice mode={mode} onModeChange={setMode} /> : null}
+          {isMix ? mixTableRange.controls : null}
           {timesChoice}
         </>
       }

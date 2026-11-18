@@ -28,7 +28,7 @@ export default function TablesIndex() {
 
       <button type="button" className="menu-btn table-mix" onClick={() => navigate('/tables/mix')}>
         <strong>Mix</strong>
-        <span className="desc">Random table from 1 to 30 on every question</span>
+        <span className="desc">Random table in a range you pick, on every question</span>
       </button>
     </Screen>
   )

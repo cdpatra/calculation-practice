@@ -124,6 +124,13 @@ export function Drill({
 
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
+      const target = event.target
+      if (
+        target instanceof HTMLElement &&
+        (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable)
+      ) {
+        return
+      }
       if (status === 'wrong') {
         if (event.key === 'Enter') {
           event.preventDefault()

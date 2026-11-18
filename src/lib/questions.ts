@@ -84,8 +84,13 @@ export function makeDividePractice(divisor: number | 'any', answerDigits: number
   }
 }
 
-export function makeTableQuestion(table: number | 'mix', maxTimes: number): Question {
-  const a = table === 'mix' ? randomInt(1, 30) : table
+export function makeTableQuestion(
+  table: number | 'mix',
+  maxTimes: number,
+  mixTableMin = 1,
+  mixTableMax = 30,
+): Question {
+  const a = table === 'mix' ? randomInt(mixTableMin, mixTableMax) : table
   const b = randomInt(1, maxTimes)
   return {
     id: nextId++,
