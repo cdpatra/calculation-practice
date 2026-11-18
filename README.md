@@ -23,6 +23,15 @@ npm run dev
 
 Open the URL Vite prints. On a phone on the same Wi-Fi, use the Network address.
 
+## Install on your phone (PWA)
+
+After you deploy over **HTTPS** (Vercel, Netlify, etc.), open the site in Chrome (Android) or Safari (iPhone):
+
+- **Android:** menu → **Install app** or **Add to Home screen**
+- **iPhone:** Share → **Add to Home Screen**
+
+The app opens full screen and caches the UI for faster loads. Install prompts need a production build (`npm run build`), not `npm run dev`.
+
 ## Deploy
 
 The site is a static Vite build.
