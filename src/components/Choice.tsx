@@ -1,4 +1,6 @@
-type Option<T extends string | number> = { value: T; label: string }
+import type { ReactNode } from 'react'
+
+type Option<T extends string | number> = { value: T; label: string; icon?: ReactNode }
 
 export function Choice<T extends string | number>({
   label,
@@ -19,11 +21,12 @@ export function Choice<T extends string | number>({
           <button
             key={String(option.value)}
             type="button"
-            className={option.value === value ? 'chip on' : 'chip'}
+            className={option.icon ? (option.value === value ? 'chip chip-icon on' : 'chip chip-icon') : option.value === value ? 'chip on' : 'chip'}
             aria-pressed={option.value === value}
+            aria-label={option.icon ? option.label : undefined}
             onClick={() => onChange(option.value)}
           >
-            {option.label}
+            {option.icon ?? option.label}
           </button>
         ))}
       </div>

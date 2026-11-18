@@ -1,3 +1,4 @@
+import { BookOpen, PencilLine } from 'lucide-react'
 import { useCallback } from 'react'
 import { Choice } from '../components/Choice'
 import { Drill } from '../components/Drill'
@@ -5,6 +6,7 @@ import { Screen } from '../components/Screen'
 import { makeCube, makeSquare } from '../lib/questions'
 import type { Topic } from '../lib/stats'
 import { useSaved } from '../lib/useSaved'
+import { coloredSheetRowClass } from '../lib/coloredSheet'
 
 type Kind = 'square' | 'cube'
 type RangeValue = '1-10' | '11-20' | '1-20' | '21-30' | '1-30' | '1-50'
@@ -51,8 +53,8 @@ function PowersBody({ kind }: { kind: Kind }) {
         label="Mode"
         value={mode}
         options={[
-          { value: 'read' as const, label: 'Read' },
-          { value: 'quiz' as const, label: 'Practice' },
+          { value: 'read' as const, label: 'Read', icon: <BookOpen size={18} strokeWidth={2.25} aria-hidden /> },
+          { value: 'quiz' as const, label: 'Practice', icon: <PencilLine size={18} strokeWidth={2.25} aria-hidden /> },
         ]}
         onChange={setMode}
       />
@@ -86,9 +88,9 @@ function PowersBody({ kind }: { kind: Kind }) {
       <p className="note">
         {square ? 'Squares' : 'Cubes'} from {range.min} to {range.max}. Switch to Practice when you want to recall them.
       </p>
-      <div className="sheet">
-        {numbers.map((n) => (
-          <div className="sheet-row" key={n}>
+      <div className="sheet sheet-colored">
+        {numbers.map((n, index) => (
+          <div className={coloredSheetRowClass(index)} key={n}>
             <span>
               {n}
               {mark}

@@ -8,7 +8,7 @@ export const TABLE_SECTIONS = [
 ] as const
 
 export const TABLE_TIMES = [10, 20, 30] as const
-export const ROW_TONES = ['tone-0', 'tone-1', 'tone-2', 'tone-3', 'tone-4'] as const
+export { ROW_TONES, coloredSheetRowClass } from '../../lib/coloredSheet'
 
 export function parseTableParam(raw: string | undefined): number | 'mix' | null {
   if (raw === 'mix') return 'mix'
