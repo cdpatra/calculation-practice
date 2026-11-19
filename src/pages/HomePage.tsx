@@ -1,3 +1,4 @@
+import { BookOpen } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { ThemeToggle } from '../components/ThemeToggle'
 import { loadStats } from '../lib/stats'
@@ -60,6 +61,24 @@ export default function HomePage() {
           )
         })}
       </nav>
+
+      <section className="home-section" aria-labelledby="english-notes-heading">
+        <h2 id="english-notes-heading" className="home-section-title">
+          English Notes
+        </h2>
+        <nav className="menu">
+          <Link to="/english-notes" className="menu-btn">
+            <span className="menu-icon icon-english-notes" aria-hidden>
+              <BookOpen size={22} strokeWidth={2.35} />
+            </span>
+            <span className="menu-body">
+              <strong>English Notes</strong>
+              <span className="desc">Grammar and language topics</span>
+            </span>
+          </Link>
+        </nav>
+      </section>
+
       <p className="footnote">Scores stay on this phone.</p>
     </div>
   )

@@ -14,6 +14,10 @@ A plain, phone-friendly site for SSC calculation speed. Questions never run out.
 
 Scores stay in the browser on that phone. There is an on-screen keypad, so you do not need the phone keyboard.
 
+## English Notes
+
+Add markdown files to the `english-notes/` folder (e.g. `tenses.md`). Each file appears on the home page under **English Notes**; the label matches the file name without `.md`. Rebuild or restart dev so Vite picks up new files.
+
 ## Run locally
 
 ```bash
