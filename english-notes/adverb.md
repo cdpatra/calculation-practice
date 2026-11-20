@@ -1,7 +1,5 @@
 # ADVERB
 
----
-
 ## 1. Definition of Adverb
 
 An **Adverb** is a word that modifies or describes a **Verb, Adjective, or another Adverb**.
@@ -49,6 +47,8 @@ Remember the basic pattern:
 - Main Verb → Adverb + Main Verb
 - Helping Verb → Helping Verb + Adverb + Main Verb
 
+---
+
 ## 4. MPT Rule (Adverb Order)
 
 When multiple adverbs of **Manner, Place and Time** are used together in a sentence, the general order is:
@@ -69,6 +69,8 @@ When multiple adverbs of **Manner, Place and Time** are used together in a sente
 
 **Incorrect:** He worked yesterday in the office hard.
 **Correct:** He worked hard in the office yesterday.
+
+---
 
 ## 5. Other Kinds of Adverbs
 
@@ -138,6 +140,7 @@ Many words can be converted into three forms:
 2. **Adverb:** He behaves honestly.
 3. **Abstract Noun:** Honesty is the best policy.
 
+---
 
 ## 7. Confusing Adverbs and Their Usage
 
@@ -216,6 +219,83 @@ Many words can be converted into three forms:
 
 > **Rule:** Use *Sweet* for taste and *Sweetly* for a pleasant or melodious manner.
 
+---
+
+### F. Late vs Lately
+
+| Word | Meaning | Usage |
+|:---|:---|:---|
+| **Late** | Not on time | Adjective / Adverb |
+| **Lately** | Recently / Of late | Adverb of Time |
+
+**Examples:**
+
+1. He is **late**. (Adjective – describes the subject)
+2. He came **late**. (Adverb – describes the verb)
+3. I haven't talked to him **lately**. (Recently)
+4. **Lately**, I haven't been to the movies. (Recently)
+
+> **Remember:**
+> - Late = Not on time.
+> - Lately = Recently = Of late.
+
+---
+
+### G. Respectfully vs Respectively
+
+| Word | Meaning | Usage |
+|:---|:---|:---|
+| **Respectfully** | With respect and dignity | Shows the manner of an action |
+| **Respectively** | In the same order or sequence | Shows corresponding order |
+
+**Examples:**
+
+1. When the guest arrived, the audience stood up **respectfully**. (With respect)
+2. Ram and Mohan, aged 4 and 5 **respectively**, are good at playing. (In the same order)
+
+> **Remember:**
+> - Respectfully = With respect.
+> - Respectively = In the given order.
+
+---
+
+### H. Good vs Well
+
+| Word | Part of Speech | Usage |
+|:---|:---|:---|
+| **Good** | Adjective | Describes a noun or subject |
+| **Well** | Adverb | Describes how an action is performed |
+| **Well** | Adjective | Generally describes health or physical condition |
+
+**Examples:**
+
+1. He is **good**. (Adjective)
+2. He is **well**. (Adjective – health condition)
+3. He behaved **well**. (Adverb – describes the verb behaved)
+
+> **Important Rule:**
+> - Good is an adjective, not an adverb.
+> - Well is generally used as an adverb but can also function as an adjective when referring to health.
+
+---
+
+### I. Pretty vs Prettily
+
+**Pretty** has two important meanings:
+1. Beautiful or attractive.
+2. To a considerable degree / Fairly / Quite.
+
+**Prettily** means in a beautiful, attractive or pleasing manner.
+
+| Word | Meaning | Example |
+|:---|:---|:---|
+| **Pretty** | Beautiful | She is a pretty girl. |
+| **Pretty** | To a considerable degree | The question is pretty difficult. |
+| **Prettily** | In a beautiful manner | She decorated the room prettily. |
+
+> **Remember:**
+> - Pretty = Beautiful / Fairly / Quite.
+> - Prettily = In a beautiful manner.
 
 ---
 
