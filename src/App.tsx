@@ -7,6 +7,7 @@ import DivisionPage from './pages/DivisionPage'
 import TablesPage from './pages/TablesPage'
 import EnglishNotePage from './pages/EnglishNotePage'
 import EnglishNotesIndex from './pages/EnglishNotesIndex'
+import PythagoreanPage from './pages/PythagoreanPage'
 import SquaresPage, { CubesPage } from './pages/PowersPage'
 
 function Missing() {
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/tables/*" element={<TablesPage />} />
         <Route path="/squares" element={<SquaresPage />} />
         <Route path="/cubes" element={<CubesPage />} />
+        <Route path="/pythagorean" element={<PythagoreanPage />} />
         <Route path="/english-notes" element={<EnglishNotesIndex />} />
         <Route path="/english-notes/:slug" element={<EnglishNotePage />} />
         <Route path="*" element={<Missing />} />

@@ -1,3 +1,5 @@
+import { PYTHAGOREAN_TRIPLETS } from './pythagoreanTriples'
+
 export type Operator = '+' | '−' | '×' | '÷'
 
 export type Question = {
@@ -123,5 +125,19 @@ export function makeCube(min: number, max: number): Question {
     operands: [n],
     expression: `${n}³`,
     answer: n * n * n,
+  }
+}
+
+export function makePythagoreanTripleQuestion(): Question {
+  const triple = PYTHAGOREAN_TRIPLETS[randomInt(0, PYTHAGOREAN_TRIPLETS.length - 1)]
+  const hide = randomInt(0, 2)
+  const shown = triple.map((value, index) => (index === hide ? '?' : String(value)))
+  return {
+    id: nextId++,
+    layout: 'expression',
+    operator: '+',
+    operands: [...triple, hide],
+    expression: shown.join(' , '),
+    answer: triple[hide],
   }
 }

@@ -303,6 +303,20 @@ button {
   color: var(--menu-cube-text);
 }
 
+.icon-pythagorean {
+  background: color-mix(in srgb, var(--table-row-2) 60%, var(--bg-surface));
+  color: #c45c00;
+}
+
+[data-theme='dark'] .icon-pythagorean {
+  color: #ffb366;
+}
+
+.triplet-check {
+  font-size: 14px;
+  color: var(--text-faint);
+}
+
 .icon-english-notes {
   background: var(--accent-soft);
   color: var(--accent);

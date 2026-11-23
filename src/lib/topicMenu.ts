@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { Box, Divide, Minus, Plus, Square, Table2, X } from 'lucide-react'
+import { Box, Divide, Minus, Plus, Square, Table2, TriangleRight, X } from 'lucide-react'
 import type { Topic } from './stats'
 
 export type TopicMenuItem = {
@@ -67,6 +67,14 @@ export const TOPIC_MENU: TopicMenuItem[] = [
     icon: Box,
     iconClass: 'cubes',
     text: 'Cubes from 1 to 30.',
+  },
+  {
+    topic: 'pythagorean',
+    href: '/pythagorean',
+    title: 'Pythagorean Triplets',
+    icon: TriangleRight,
+    iconClass: 'pythagorean',
+    text: 'Learn triplets like 3 , 4 , 5 — then recall the missing side.',
   },
 ]
 

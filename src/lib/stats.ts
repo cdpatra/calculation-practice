@@ -1,4 +1,12 @@
-export type Topic = 'addition' | 'subtraction' | 'multiplication' | 'division' | 'tables' | 'squares' | 'cubes'
+export type Topic =
+  | 'addition'
+  | 'subtraction'
+  | 'multiplication'
+  | 'division'
+  | 'tables'
+  | 'squares'
+  | 'cubes'
+  | 'pythagorean'
 
 export type TopicStats = {
   attempted: number
@@ -9,7 +17,16 @@ export type TopicStats = {
 
 const KEY = 'ssc-calc-stats-v1'
 
-const TOPICS: Topic[] = ['addition', 'subtraction', 'multiplication', 'division', 'tables', 'squares', 'cubes']
+const TOPICS: Topic[] = [
+  'addition',
+  'subtraction',
+  'multiplication',
+  'division',
+  'tables',
+  'squares',
+  'cubes',
+  'pythagorean',
+]
 
 function empty(): TopicStats {
   return { attempted: 0, correct: 0, bestStreak: 0, totalMs: 0 }
