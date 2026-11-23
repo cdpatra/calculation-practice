@@ -4,7 +4,7 @@ import { Choice } from '../components/Choice'
 import { Drill } from '../components/Drill'
 import { Screen } from '../components/Screen'
 import { makePythagoreanTripleQuestion } from '../lib/questions'
-import { PYTHAGOREAN_TRIPLETS } from '../lib/pythagoreanTriples'
+import { formatTriplet, PYTHAGOREAN_GROUPS } from '../lib/pythagoreanTriples'
 import { coloredSheetRowClass } from '../lib/coloredSheet'
 import { useSaved } from '../lib/useSaved'
 
@@ -45,19 +45,22 @@ export default function PythagoreanPage() {
   return (
     <Screen title={title} topic="pythagorean">
       {controls}
-      <p className="note">a² + b² = c². Memorize these triplets (a , b , c).</p>
-      <div className="sheet sheet-colored">
-        {PYTHAGOREAN_TRIPLETS.map(([a, b, c], index) => (
-          <div className={coloredSheetRowClass(index)} key={`${a}-${b}-${c}`}>
-            <span>
-              {a} , {b} , {c}
-            </span>
-            <span className="triplet-check">
-              {a}² + {b}² = {c}²
-            </span>
+      <p className="note">a² + b² = c². Each group starts from one primitive triplet and its multiples.</p>
+      {PYTHAGOREAN_GROUPS.map((group) => (
+        <section className="table-section" key={`${group.base.join('-')}`}>
+          <h2 className="table-section-title">From {formatTriplet(group.base)}</h2>
+          <div className="sheet sheet-colored">
+            {group.triplets.map(([a, b, c], index) => (
+              <div className={coloredSheetRowClass(index)} key={`${a}-${b}-${c}`}>
+                <span>{formatTriplet([a, b, c])}</span>
+                <span className="triplet-check">
+                  {a}² + {b}² = {c}²
+                </span>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </section>
+      ))}
     </Screen>
   )
 }
