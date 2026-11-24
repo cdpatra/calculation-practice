@@ -299,3 +299,124 @@ Many words can be converted into three forms:
 
 ---
 
+## 8. Adverb and Inversion
+
+**Inversion** means changing the normal sentence order by placing the auxiliary/helping verb before the subject.
+
+> **Normal Structure:** Subject + Auxiliary Verb + Main Verb  
+> **Inversion:** Adverb/Adverbial Phrase + Auxiliary Verb + Subject + Main Verb
+
+### Important Rule
+
+Certain negative or restrictive adverbs cause inversion **when they are placed at the beginning of a sentence**.
+
+| Adverb / Phrase | Meaning |
+|:---|:---|
+| Not | Negative |
+| Never | At no time |
+| Hardly | Almost not |
+| Scarcely | Almost not |
+| Seldom | Rarely |
+| Little | Not much / Not at all |
+| So | To such an extent |
+| Too | To an excessive degree |
+| Under no circumstances | In no situation |
+
+### A. Never
+
+- He **never helps** me. (No inversion)
+- **Never does he help** me. (Inversion)
+- **Never have I met** a person like him. (Inversion)
+
+### B. Hardly
+
+- He **hardly attended** the classes. (No inversion)
+- **Hardly did he attend** the classes. (Inversion)
+
+### C. So
+
+- His voice was **so hoarse** that he couldn't speak a single word. (No inversion)
+- **So hoarse was his voice** that he couldn't speak a single word. (Inversion)
+
+### D. Not
+
+- He could **not speak** a single word. (No inversion)
+- **Not a single word could he speak.** (Inversion)
+
+### E. Too
+
+- He was **too weak** to do the work. (No inversion)
+- **Too weak was he** to do the work. (Inversion)
+
+### F. Little
+
+> Little causes inversion when it is used as an adverb at the beginning of a sentence.
+
+- He **knew little** about the incident. (No inversion)
+- **Little did he know** about the incident. (Inversion)
+
+### G. Under No Circumstances
+
+- **Under no circumstances will I help him.** (Inversion)
+
+> **Important:** When these negative or restrictive expressions are placed at the beginning of a sentence, use inversion. If the sentence starts with a normal subject, inversion is generally not required.
+
+---
+
+## 9. Position of Adverbs – Only, Even and Enough
+
+### A. Use of ONLY
+
+The position of **Only** is very important because changing its position can change the meaning of the sentence.
+
+> **Rule:** Place ONLY immediately before the word or phrase that you want to restrict or emphasise.
+
+| Incorrect Sentence | Correct Sentence | Explanation |
+|:---|:---|:---|
+| He only spoke and everyone was silent. | **Only he** spoke and everyone was silent. | Only refers to He. |
+| She only answered two questions. | She answered **only two questions**. | Only refers to two questions. |
+| The only death of her son was shocking. | The death of her **only son** was shocking. | Only refers to son. |
+| She only eats strawberries for dinner. | She eats **only strawberries** for dinner. | Only refers to strawberries. |
+| They only work when they need money. | They work **only when they need money**. | Only refers to the condition. |
+
+> **Remember:** Only should be placed immediately before the word or phrase it modifies.
+
+### B. Use of EVEN
+
+**Rule:** Even is generally placed immediately before the word or phrase that it emphasises.
+
+**Example:**
+
+- Incorrect: He can even do this work.
+- Correct: He can do **even this work**.
+
+> Even this work = Emphasises the difficulty or unexpected nature of the work.
+
+### C. Use of ENOUGH
+
+**Enough** can function as both an Adjective/Determiner and an Adverb.
+
+| Usage | Rule | Example |
+|:---|:---|:---|
+| Adjective / Determiner | Enough comes before a noun. | We haven't got **enough money** to complete the project. |
+| Adverb | Enough comes after an adjective or adverb. | She is **smart enough** to handle the situation. |
+
+**Important Rules:**
+
+1. When Enough modifies an adjective, it is placed **after the adjective**.
+2. Enough is followed by the **positive degree** of an adjective, not the comparative or superlative degree.
+
+**Examples:**
+
+- She is smart **enough** to handle the situation.
+- He is tall **enough** to be selected for the basketball team.
+- Incorrect: He is wiser enough to do the work on time.
+- Correct: He is **wise enough** to do the work on time.
+
+> **Quick Revision:**
+> - Enough + Noun → Enough money.
+> - Adjective + Enough → Smart enough.
+> - Positive Degree → Wise enough (Not wiser enough).
+
+---
+
