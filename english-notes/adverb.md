@@ -420,3 +420,202 @@ The position of **Only** is very important because changing its position can cha
 
 ---
 
+## 13. Too Much vs Much Too
+
+| Too Much | Much Too |
+|---|---|
+| Used with a **noun**. | Used with an **adjective/adverb**. |
+| Indicates an excessive quantity or degree. | Indicates an excessive degree. |
+| Can be used in positive or negative contexts. | Generally expresses an undesirable or excessive degree. |
+
+**Examples:**
+
+1. The task given to him is **too much / much too** difficult.  
+   **Correct:** Much too — *difficult* is an adjective.
+
+2. There was **too much / much too** snow on the road.  
+   **Correct:** Too much — *snow* is a noun.
+
+3. I haven't had **too much / much too** sleep.  
+   **Correct:** Too much — *sleep* is a noun.
+
+4. The boys are **too much / much too** lazy to volunteer for extra work.  
+   **Correct:** Much too — *lazy* is an adjective.
+
+> **Shortcut:**  
+> Too much + Noun  
+> Much too + Adjective/Adverb
+
+---
+
+## 14. Use of So vs Such
+
+| So | Such |
+|---|---|
+| Adverb | Determiner |
+| Used before an adjective or adverb. | Used before a noun or a noun phrase. |
+| Pattern: So + Adjective/Adverb | Pattern: Such + (a/an) + Adjective + Noun |
+
+**Important:** Such can be followed by *a/an* before a singular countable noun, whereas *so* cannot directly follow this pattern.
+
+**Examples:**
+
+1. He spoke **such / so** clearly that everybody understood his point.  
+   **Correct:** So — *clearly* is an adverb.
+
+2. He is **so / such** an idiot that he doesn't know the capital of his country.  
+   **Correct:** Such — *idiot* is a noun.
+
+3. He is **so / such** strong that he can do the work easily.  
+   **Correct:** So — *strong* is an adjective.
+
+**Two correct structures:**
+
+- He is **such a strong person** that he can easily complete the work.
+- He is **so strong a person** that he can easily complete the work.
+
+> **Shortcut:**  
+> So + Adjective/Adverb  
+> Such + (a/an) + Noun
+
+---
+
+## 15. Use of Too vs So
+
+### A. Two meanings of Too
+
+1. **Excessively / more than necessary**
+   - He is too weak to walk.
+2. **Also / as well**
+   - He too went to England.
+   - I too helped him in his work.
+
+### B. Too takes the Positive Degree
+
+Too and so are generally followed by the positive degree of an adjective or adverb, not the comparative degree.
+
+| Incorrect | Correct |
+|---|---|
+| So smarter | So smart |
+| Too weaker | Too weak |
+| Too weaker to work | Too weak to work |
+
+**Example:**
+
+He is too weak / weaker to do the work.  
+**Correct:** Too weak — *too* takes the positive degree.
+
+### C. Transformation: Too...to and So...that
+
+A sentence containing **too...to** can generally be transformed into **so...that** with a negative meaning.
+
+**Example:**
+
+- He is too weak to do the work.
+- He is so weak that he cannot do the work.
+
+**Important:** When *too...to* expresses an excessive degree that prevents an action, use a negative clause in the *so...that* transformation.
+
+**Incorrect:** She is too lazy that she cannot do the work.  
+**Correct:** She is so lazy that she cannot do the work.
+
+### D. Too expresses an excessive degree
+
+- The news is too good to be true.
+- He is too proud to ask for help.
+- He is too young to take decisions independently.
+
+**Exception:** Very can also be used with *to-infinitive* constructions.
+
+Example: I am very glad to meet you.
+
+---
+
+## 16. Use of High vs Highly
+
+| High | Highly |
+|---|---|
+| Can function as an adjective and an adverb. | Functions as an adverb. |
+| Refers to a great height or level. | Means greatly, extremely or to a high degree. |
+
+**Examples:**
+
+1. He was the most **highly** paid member of the team.  
+   **Correct:** Highly — modifies *paid*.
+
+2. The aeroplane flew **high / highly** in the sky.  
+   **Correct:** High — refers to physical height.
+
+3. His remarks were **high / highly** objectionable.  
+   **Correct:** Highly — means extremely objectionable.
+
+4. His desk was piled **high / highly** with papers.  
+   **Correct:** High — indicates a great height or level.
+
+> **Remember:**  
+> High = physical height or a high level.  
+> Highly = greatly / extremely.
+
+---
+
+## 17. Words Ending in -ly: Adjectives vs Adverbs
+
+**General patterns:**
+
+- Noun + ly = Adjective (in many cases).
+- Adjective + ly = Adverb (in many cases).
+
+### A. Adjectives ending in -ly
+
+| Adjective | Root Noun |
+|---|---|
+| Manly | Man |
+| Womanly | Woman |
+| Brotherly | Brother |
+| Sisterly | Sister |
+| Miserly | Miser |
+| Costly | Cost |
+| Friendly | Friend |
+| Niggardly | Niggard |
+| Cowardly | Coward |
+| Scholarly | Scholar |
+| Orderly | Order |
+
+**Important:** Not every word ending in -ly is an adverb.
+
+### B. Adverbs ending in -ly
+
+| Adverb |
+|---|
+| Cleverly |
+| Slowly |
+| Suddenly |
+| Quickly |
+| Independently |
+| Foolishly |
+| Harshly |
+| Beautifully |
+
+### C. Noun, Adjective and Adverb Forms
+
+| Noun | Adjective | Adverbial Expression |
+|---|---|---|
+| Miser | Miserly | In a miserly manner |
+| Coward | Cowardly | In a cowardly manner |
+| Niggard | Niggardly | In a niggardly manner |
+| Scholar | Scholarly | In a scholarly manner |
+
+**Important:** Some adjectives ending in -ly do not have commonly used corresponding adverbs. Use expressions such as *in a ... manner* instead.
+
+### D. Avoid Redundant Nouns
+
+When a noun is used as a subject complement, do not unnecessarily add another noun that repeats its meaning.
+
+**Incorrect:** He is a miser man.  
+**Correct:** He is a miser.
+
+**Incorrect:** He is a coward person.  
+**Correct:** He is a coward.
+
+> **Remember:** Miser and coward are already nouns. Adding *man* or *person* is redundant in these examples.
+
